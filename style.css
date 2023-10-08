@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.desenhos{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.circulo .triangulo, .retangulo {
+  position: absolute;
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  background-color: #de0c0c;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 87px solid #2196f3;
+  top: 50px;
+  left: 75px;
+}
+
+.retangulo{
+  width: 100px;
+  height: 50px;
+  background-color: #22a202;
+  top: 150px;
+  left: 50px;
+}
+
+
+
